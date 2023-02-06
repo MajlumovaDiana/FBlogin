@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    top: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+}
+.fb{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    .fb_img{
+        width: 70%;
+        height: 50px;
+        background-image: url('https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 70%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .fb_text{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
